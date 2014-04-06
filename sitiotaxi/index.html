@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Sitios</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?&sensor=true"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<header>
+		<h1 class="icon-location">Sitio de taxis de Oaxaca</h1>
+
+	</header>
+	<section>
+		<div id="container">
+			<a href="#" onClick="call('one');">
+				<div id="one" class="circle"><p>Sitio de taxis Alameda de León</p></div>
+			</a>
+			<a href="#" onClick="call('two');">
+				<div id="two" class="circle"><p>Sitio de taxis Del valle de Oaxaca</p></div>
+			</a>
+			<a href="#" onClick="call('three');">
+				<div id="three" class="circle"><p>Sitio de taxis 5 de Febrero</p></div>
+			</a>
+			<a href="#" onClick="call('four');">
+				<div id="four" class="circle"><p>Sitio de taxis Hidalgo</p></div>
+			</a>
+			<a href="#" onClick="call('five');">
+				<div id="five" class="circle"><p>Sitio de taxis Reforma</p></div>
+			</a>
+			<a href="#" onClick="call('six');">
+				<div id="six" class="circle"><p>Sitio de taxis Presidente</p></div>
+			</a>
+		</div>
+		<div id="description">
+		</div>
+		<div id="canvasGoogle"></div>
+	</section>
+	<footer>
+	</footer>
+</body>
+</html>
