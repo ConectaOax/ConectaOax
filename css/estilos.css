@@ -1,0 +1,52 @@
+/* CSS Document */
+
+
+   #ventanamodal {
+	background-image: url(imagenes/gallery_bg.gif);
+	position: fixed;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+
+#despliegaModalLetraB {
+	background-image: url(imagenes/gallery_bg.gif);
+	position: fixed;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+
+#ventana {
+
+	position: absolute;
+	background-color: #00FFBF; 
+	height: 500px;
+	width: 600px;
+	left: 50%;
+	top: 50%;
+	margin-top: -250px;
+	margin-right: 0px;
+	margin-bottom:0px;
+	margin-left: -250px;
+	}
+
+
+#ventana2 {
+
+	position: absolute;
+	height: 500px;
+	width: 600px;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-right: 0px;
+	margin-bottom:0 px;
+	margin-left: -250px;
+	}
